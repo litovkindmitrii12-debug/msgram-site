@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Знакомьтесь с Msgram — мессенджером для ваших разговоров. Будущие версии для Windows, Linux и Android.">
+  <meta property="og:title" content="Msgram — ближе в каждом сообщении">
+  <meta property="og:description" content="Место для ваших разговоров. Windows, Linux и Android — скоро.">
+  <meta property="og:type" content="website">
+  <title>Msgram — ближе в каждом сообщении</title>
+  <link rel="icon" href="assets/msgram-logo.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Msgram — главная"><img src="assets/msgram-logo.jpg" alt="" width="38" height="38"><span>Msgram</span></a>
+    <nav aria-label="Основная навигация"><a href="#about">О мессенджере</a><a href="#preview">Знакомство</a></nav>
+    <a class="nav-cta" href="#download">Скачать <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">МЕНЬШЕ РАССТОЯНИЙ. БОЛЬШЕ ОБЩЕНИЯ.</p>
+        <h1 id="hero-title">Ближе в каждом<br><span>сообщении.</span></h1>
+        <p class="lead">Msgram — место для ваших разговоров.<br>От первого «привет» до больших планов.</p>
+        <a class="button primary" href="#download">Выбрать платформу <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <img class="hero-logo" src="assets/msgram-logo.jpg" alt="Логотип Msgram: белая буква M на синем фоне" width="1254" height="1254" fetchpriority="high">
+        <div class="message-note note-first" aria-hidden="true"><span class="note-avatar">А</span><div><b>Аня</b><span>Ну что, на связи?</span></div><small>18:08</small></div>
+        <div class="message-note note-second" aria-hidden="true"><span>Всегда рядом.</span><span class="ticks">✓✓</span></div>
+      </div>
+    </section>
+    <div class="platform-strip wrap"><span>Ваш следующий разговор — в Msgram</span><div><span>Windows</span><span>Linux</span><span>Android</span><span class="soon">Скоро</span></div></div>
+
+    <section class="about wrap section" id="about" aria-labelledby="about-title">
+      <div class="about-intro"><p class="section-label">Знакомьтесь, Msgram</p><h2 id="about-title">У каждого разговора<br>есть своё место.</h2></div>
+      <div class="about-body"><p class="large-copy">Обсудить идею. Написать близким.<br>Просто спросить: «Как ты?»</p><p>Мы создаём Msgram для повседневного общения. Для разговоров, которые начинаются с пары слов и становятся чем-то большим.</p><p class="development"><span aria-hidden="true">↗</span> Сейчас проект в разработке. Это первое знакомство.</p></div>
+    </section>
+
+    <section class="preview-section section" id="preview" aria-labelledby="preview-title">
+      <div class="wrap">
+        <div class="preview-heading"><h2 id="preview-title">Всё начинается<br>с «привет».</h2><p>Маленький разговор. Большие планы.<br>Попробуйте отправить сообщение в демо.</p></div>
+        <div class="demo-layout">
+          <div class="demo-caption"><span class="demo-tag">ИНТЕРАКТИВНЫЙ КОНЦЕПТ</span><h3>На одной волне.</h3><p>Каким бы ни был повод,<br>главное — быть на связи.</p><div class="demo-disclaimer">Демонстрация идеи сайта.<br>Это не скриншот приложения Msgram.</div></div>
+          <div class="chat">
+            <div class="chat-head"><span class="chat-avatar">А</span><div><strong>Аня</strong><span>Демонстрационный диалог</span></div><span class="chat-mark" aria-hidden="true">M</span></div>
+            <div class="messages" id="messages" role="log" aria-label="Демонстрационная переписка" aria-live="polite">
+              <p class="chat-date">Сегодня</p>
+              <div class="bubble incoming">Привет! Есть идея на выходные.<small>18:08</small></div>
+              <div class="bubble outgoing">Слушаю тебя <small>18:09 <span aria-label="Прочитано">✓✓</span></small></div>
+              <div class="bubble incoming">Давай соберёмся и придумаем что-нибудь классное?<small>18:09</small></div>
+            </div>
+            <form id="demo-form" class="chat-form"><label class="sr-only" for="message">Ваше демосообщение</label><input id="message" name="message" placeholder="Напишите своё «привет»…" maxlength="240" autocomplete="off" required><button type="submit" aria-label="Отправить демосообщение">↑</button></form>
+            <p class="chat-privacy">Демо работает только в вашем браузере. Сообщения не отправляются.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download wrap section" id="download" aria-labelledby="download-title">
+      <p class="section-label">Msgram на ваших устройствах</p><h2 id="download-title">Выберите, где<br>продолжится разговор.</h2><p class="download-intro">Готовим версии для компьютера и смартфона.<br>Ссылки появятся здесь, когда будут готовы установочные файлы.</p>
+      <div class="downloads">
+        <article class="download-card"><div class="platform-top"><span class="os-symbol windows" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="release-status">В разработке</span></div><h3>Windows</h3><p>Для вашего компьютера</p><a class="download-button" data-platform="windows" role="link" aria-disabled="true" aria-describedby="release-note">Скачать для Windows <span>Скоро</span></a></article>
+        <article class="download-card"><div class="platform-top"><span class="os-symbol terminal" aria-hidden="true">&gt;_</span><span class="release-status">В разработке</span></div><h3>Linux</h3><p>Для вашей рабочей среды</p><a class="download-button" data-platform="linux" role="link" aria-disabled="true" aria-describedby="release-note">Скачать для Linux <span>Скоро</span></a></article>
+        <article class="download-card"><div class="platform-top"><span class="os-symbol android" aria-hidden="true"><i></i></span><span class="release-status">В разработке</span></div><h3>Android</h3><p>Для разговоров на ходу</p><a class="download-button" data-platform="android" role="link" aria-disabled="true" aria-describedby="release-note">Скачать для Android <span>Скоро</span></a></article>
+      </div>
+      <p class="release-note" id="release-note">Загрузка пока недоступна. Дата выпуска будет объявлена позже.</p>
+    </section>
+    <section class="closing wrap"><img src="assets/msgram-logo.jpg" alt="" width="56" height="56" loading="lazy"><p>Расстояния разные.<br><span>Связь одна. Msgram.</span></p><a href="#download" aria-label="Перейти к версиям Msgram">↗</a></section>
+  </main>
+  <footer class="wrap footer"><a class="wordmark" href="#">Msgram</a><p>Место для ваших разговоров.</p><a href="#main">Наверх ↑</a></footer>
+</body>
+</html>
